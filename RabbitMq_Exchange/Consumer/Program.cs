@@ -14,6 +14,7 @@ channel.ExchangeDeclare(exchange: "direct-exchange-example", type: ExchangeType.
 string queueName = channel.QueueDeclare().QueueName;
 //Publisher tarafından routing key de bulunana değerdeki kuyruğa gönderilen mesajları
 //kendi oluşturduğumuz kuyruğa tüketmemiz gerekmektedir , Bunun için öncelikle bir kuyruk oluşturulmalı 
+//Bu şekilde kullanım ile genrete edilecek olan kuruğun ismine erişmiş olmaktayız 
 
 channel.QueueBind(queue: queueName, exchange: "direct-exchange-example", routingKey: "direct-queue-example");
 

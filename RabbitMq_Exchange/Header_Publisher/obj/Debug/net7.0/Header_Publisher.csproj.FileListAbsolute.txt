@@ -1,0 +1,5 @@
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Header_Publisher\obj\Debug\net7.0\Header_Publisher.csproj.AssemblyReference.cache
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Header_Publisher\obj\Debug\net7.0\Header_Publisher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Header_Publisher\obj\Debug\net7.0\Header_Publisher.AssemblyInfoInputs.cache
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Header_Publisher\obj\Debug\net7.0\Header_Publisher.AssemblyInfo.cs
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Header_Publisher\obj\Debug\net7.0\Header_Publisher.csproj.CoreCompileInputs.cache

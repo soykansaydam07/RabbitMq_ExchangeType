@@ -1,0 +1,5 @@
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Fanout_Exchange\obj\Debug\net7.0\Fanout_Consumer.csproj.AssemblyReference.cache
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Fanout_Exchange\obj\Debug\net7.0\Fanout_Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Fanout_Exchange\obj\Debug\net7.0\Fanout_Consumer.AssemblyInfoInputs.cache
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Fanout_Exchange\obj\Debug\net7.0\Fanout_Consumer.AssemblyInfo.cs
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Fanout_Exchange\obj\Debug\net7.0\Fanout_Consumer.csproj.CoreCompileInputs.cache

@@ -127,9 +127,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project-Private\\RabbitMq_ExchangeType\\RabbitMq_Exchange\\Publisher\\Publisher.csproj",
-      "projectName": "Publisher",
-      "projectPath": "C:\\Project-Private\\RabbitMq_ExchangeType\\RabbitMq_Exchange\\Publisher\\Publisher.csproj",
+      "projectUniqueName": "C:\\Project-Private\\RabbitMq_ExchangeType\\RabbitMq_Exchange\\Publisher\\Direct_Publisher.csproj",
+      "projectName": "Direct_Publisher",
+      "projectPath": "C:\\Project-Private\\RabbitMq_ExchangeType\\RabbitMq_Exchange\\Publisher\\Direct_Publisher.csproj",
       "packagesPath": "C:\\Users\\Soykan\\.nuget\\packages\\",
       "outputPath": "C:\\Project-Private\\RabbitMq_ExchangeType\\RabbitMq_Exchange\\Publisher\\obj\\",
       "projectStyle": "PackageReference",
