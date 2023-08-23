@@ -1,5 +1,6 @@
 ﻿using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 ConnectionFactory factory = new ConnectionFactory();
@@ -21,6 +22,7 @@ channel.QueueBind(
     routingKey: string.Empty,
     new Dictionary<string, object>
     {
+        //["x-match"] = "all",
         ["no"] = value
     });
 
