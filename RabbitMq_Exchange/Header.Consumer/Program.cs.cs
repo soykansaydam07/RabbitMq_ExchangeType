@@ -16,6 +16,9 @@ string value = Console.ReadLine();
 
 string queueName = channel.QueueDeclare().QueueName;
 
+//x-match : İlgili queueu nun mesajı hangi davranışla alacağının kararını veren bir key dir  (İki veri alır)
+//any : Sadece header daki bir değerin olması yeterli iken all : tün key value değerlerinin eşleşmesi lazımdır
+
 channel.QueueBind(
     queue: queueName,
     exchange: "header-exchange-example",

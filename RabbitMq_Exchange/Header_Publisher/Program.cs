@@ -7,8 +7,7 @@ factory.Uri = new("amqps://txgjwwvr:N-FhjvIXseMjQpZ4Awmw9Vg2T_gp3cMQ@moose.rmq.c
 using IConnection connection = factory.CreateConnection();
 using IModel channel = connection.CreateModel();
 
-//x-match : İlgili queueu nun mesajı hangi davranışla alacağının kararını veren bir key dir  (İki veri alır)
-//any : Sadece header daki bir değerin olması yeterli iken all : tün key value değerlerinin eşleşmesi lazımdır
+
 
 channel.ExchangeDeclare(exchange: "header-exchange-example", type: ExchangeType.Headers);
 
