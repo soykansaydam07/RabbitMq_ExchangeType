@@ -25,7 +25,7 @@ channel.QueueBind(
     routingKey: string.Empty,
     new Dictionary<string, object>
     {
-        //["x-match"] = "all",
+        //["x-match"] = "all",      // Yapı olarak bu şekilde kullanılmakta 
         ["no"] = value
     });
 
