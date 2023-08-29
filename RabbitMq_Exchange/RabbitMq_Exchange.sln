@@ -7,17 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Direct_Publisher", "Publish
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Direct_Consumer", "Consumer\Direct_Consumer.csproj", "{EFF8CC94-4625-4FC1-AF5D-DB6EB349DB0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanout_Consumer", "Fanout_Exchange\Fanout_Consumer.csproj", "{9322CB48-8DD7-4880-B167-A56DCF95FE25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fanout_Consumer", "Fanout_Exchange\Fanout_Consumer.csproj", "{9322CB48-8DD7-4880-B167-A56DCF95FE25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanout_Publisher", "Fanout_Publisher\Fanout_Publisher.csproj", "{9AAD67B2-13E6-485E-A47B-7760B2B43592}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fanout_Publisher", "Fanout_Publisher\Fanout_Publisher.csproj", "{9AAD67B2-13E6-485E-A47B-7760B2B43592}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic_Consumer", "Topic_Consumer\Topic_Consumer.csproj", "{8DE3CE87-6D64-4DD8-AEDB-68210F7A6A33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topic_Consumer", "Topic_Consumer\Topic_Consumer.csproj", "{8DE3CE87-6D64-4DD8-AEDB-68210F7A6A33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic_Publisher", "Topic_Publisher\Topic_Publisher.csproj", "{02C0A324-046F-42DE-B1A6-99C18F62314A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topic_Publisher", "Topic_Publisher\Topic_Publisher.csproj", "{02C0A324-046F-42DE-B1A6-99C18F62314A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Header_Consumer", "Header.Consumer\Header_Consumer.csproj", "{45C351A6-F8D3-402C-9681-9D2597C759A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Header_Consumer", "Header.Consumer\Header_Consumer.csproj", "{45C351A6-F8D3-402C-9681-9D2597C759A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Header_Publisher", "Header_Publisher\Header_Publisher.csproj", "{277382A0-1C6F-434A-AAE7-EE51287F833A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Header_Publisher", "Header_Publisher\Header_Publisher.csproj", "{277382A0-1C6F-434A-AAE7-EE51287F833A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message_Templates_Consumer", "Message_Templates_Consumer\Message_Templates_Consumer.csproj", "{1001CE37-7274-460E-86B7-F19F19A8D061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message_Templates_Publisher", "Message_Templates_Publisher\Message_Templates_Publisher.csproj", "{AA8D1A25-E766-484E-B5AF-7F0ED88A680B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{277382A0-1C6F-434A-AAE7-EE51287F833A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{277382A0-1C6F-434A-AAE7-EE51287F833A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{277382A0-1C6F-434A-AAE7-EE51287F833A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1001CE37-7274-460E-86B7-F19F19A8D061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1001CE37-7274-460E-86B7-F19F19A8D061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1001CE37-7274-460E-86B7-F19F19A8D061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1001CE37-7274-460E-86B7-F19F19A8D061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA8D1A25-E766-484E-B5AF-7F0ED88A680B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA8D1A25-E766-484E-B5AF-7F0ED88A680B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA8D1A25-E766-484E-B5AF-7F0ED88A680B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA8D1A25-E766-484E-B5AF-7F0ED88A680B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
