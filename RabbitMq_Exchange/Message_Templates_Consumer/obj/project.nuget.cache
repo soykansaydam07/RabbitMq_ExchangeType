@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TvXKiC4PH/nh2eM4mwm9XBNexHRAwmaaN9hIygVRUsAQhoxqlwnLAs1tWKjlIKUnzgBmjluwkei79y1JoC0Yeg==",
+  "dgSpecHash": "FM65rzamAYI6WAugMGB9je2qHJPv3U2hWMWrSJy7PC54PCPhfndGMpG+7q200cF5thesebzDK9ea4dVIExfUGg==",
   "success": true,
   "projectFilePath": "C:\\Project-Private\\RabbitMq_ExchangeType\\RabbitMq_Exchange\\Message_Templates_Consumer\\Message_Templates_Consumer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Soykan\\.nuget\\packages\\rabbitmq.client\\6.5.0\\rabbitmq.client.6.5.0.nupkg.sha512",
-    "C:\\Users\\Soykan\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
-    "C:\\Users\\Soykan\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+    "C:\\Users\\Soykan\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\Soykan\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Soykan\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

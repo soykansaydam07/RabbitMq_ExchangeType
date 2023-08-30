@@ -1,5 +1,17 @@
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\bin\Debug\net7.0\Message_Templates_Consumer.exe
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\bin\Debug\net7.0\Message_Templates_Consumer.deps.json
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\bin\Debug\net7.0\Message_Templates_Consumer.runtimeconfig.json
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\bin\Debug\net7.0\Message_Templates_Consumer.dll
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\bin\Debug\net7.0\Message_Templates_Consumer.pdb
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\bin\Debug\net7.0\RabbitMQ.Client.dll
 C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\obj\Debug\net7.0\Message_Templates_Consumer.csproj.AssemblyReference.cache
 C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\obj\Debug\net7.0\Message_Templates_Consumer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\obj\Debug\net7.0\Message_Templates_Consumer.AssemblyInfoInputs.cache
 C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\obj\Debug\net7.0\Message_Templates_Consumer.AssemblyInfo.cs
 C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\obj\Debug\net7.0\Message_Templates_Consumer.csproj.CoreCompileInputs.cache
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\obj\Debug\net7.0\Message_Templates_Consumer.csproj.CopyComplete
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\obj\Debug\net7.0\Message_Templates_Consumer.dll
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\obj\Debug\net7.0\refint\Message_Templates_Consumer.dll
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\obj\Debug\net7.0\Message_Templates_Consumer.pdb
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\obj\Debug\net7.0\Message_Templates_Consumer.genruntimeconfig.cache
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Consumer\obj\Debug\net7.0\ref\Message_Templates_Consumer.dll

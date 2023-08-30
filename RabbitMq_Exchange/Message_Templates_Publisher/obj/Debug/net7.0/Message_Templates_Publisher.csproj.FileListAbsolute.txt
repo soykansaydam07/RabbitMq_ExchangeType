@@ -3,3 +3,15 @@ C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Pub
 C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\obj\Debug\net7.0\Message_Templates_Publisher.AssemblyInfoInputs.cache
 C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\obj\Debug\net7.0\Message_Templates_Publisher.AssemblyInfo.cs
 C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\obj\Debug\net7.0\Message_Templates_Publisher.csproj.CoreCompileInputs.cache
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\bin\Debug\net7.0\Message_Templates_Publisher.exe
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\bin\Debug\net7.0\Message_Templates_Publisher.deps.json
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\bin\Debug\net7.0\Message_Templates_Publisher.runtimeconfig.json
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\bin\Debug\net7.0\Message_Templates_Publisher.dll
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\bin\Debug\net7.0\Message_Templates_Publisher.pdb
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\obj\Debug\net7.0\Message_Templates_Publisher.csproj.CopyComplete
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\obj\Debug\net7.0\Message_Templates_Publisher.dll
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\obj\Debug\net7.0\refint\Message_Templates_Publisher.dll
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\obj\Debug\net7.0\Message_Templates_Publisher.pdb
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\obj\Debug\net7.0\Message_Templates_Publisher.genruntimeconfig.cache
+C:\Project-Private\RabbitMq_ExchangeType\RabbitMq_Exchange\Message_Templates_Publisher\obj\Debug\net7.0\ref\Message_Templates_Publisher.dll
