@@ -6,6 +6,8 @@ class Program
 {
     static void Main()
     {
+        //Class library olarak Açıldığı için console uygulaması olarka library kısımlarında properti olarak ayarlanmalı
+        //Console.Read() kısmını okuyamadığı için Main fonksiyonu içine alındı 
 
         ConnectionFactory factory = new();
         factory.Uri = new("amqps://txgjwwvr:N-FhjvIXseMjQpZ4Awmw9Vg2T_gp3cMQ@moose.rmq.cloudamqp.com/txgjwwvr");
