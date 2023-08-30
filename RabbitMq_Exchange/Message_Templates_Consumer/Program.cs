@@ -103,7 +103,44 @@ using IModel channel = connection.CreateModel();
 
 #region Request/Response Tasarımı 
 
+string requestQueueuName = "exaple-request-response-queue";
 
+channel.QueueDeclare(
+    queue: requestQueueuName,
+    durable: false,
+    exclusive: false,
+    autoDelete: false);
+
+EventingBasicConsumer consumer = new(channel);
+
+channel.BasicConsume(
+    queue: requestQueueuName,
+    autoAck: true,  // Rabbit mq verinin otomatik bir şekilde silinmesi burada bu veri
+                    // bilerek açıldı çünkü work queue tarafında her veri tek bir consuma gitmesi istendiği için 
+    consumer: consumer);
+
+consumer.Received += (sender, e) =>
+{
+    
+    string message = Encoding.UTF8.GetString(e.Body.Span);
+    Console.WriteLine(message);
+    //........ Burada publishere bir response dönüştüreleceği kısım aslında burda oluşturulmakta olucaktır
+
+    byte[] responseMessage = Encoding.UTF8.GetBytes($"This process is  done ... : {message}" );
+
+    IBasicProperties properties = channel.CreateBasicProperties();
+    properties.CorrelationId = e.BasicProperties.CorrelationId;
+
+    channel.BasicPublish(
+        exchange:string.Empty,
+        routingKey:e.BasicProperties.ReplyTo,
+        basicProperties: properties,
+        body: responseMessage
+        );
+
+
+
+};
 
 #endregion
 

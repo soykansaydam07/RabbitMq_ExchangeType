@@ -1,4 +1,5 @@
 ﻿using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
 using System.Text;
 
 ConnectionFactory factory = new ConnectionFactory();
@@ -78,7 +79,65 @@ using IModel channel = connection.CreateModel();
 
 #region Request/Response Tasarımı 
 
+//İki kuyruk yapısı olucaktır Request/Response Queue Kısımları
 
+string requestQueueuName = "exaple-request-response-queue";
+
+channel.QueueDeclare(
+    queue: requestQueueuName,
+    durable: false,
+    exclusive: false,
+    autoDelete: false);
+
+string replyQueueName = channel.QueueDeclare().QueueName;
+
+string correlationId = Guid.NewGuid().ToString();
+//İlgili alınan requeste ait reposu bulabilmek için oluşturulan ve sorasında response verisinde
+//bu kısma bakılarak çalıştırılması sağlanacak olan unique bir Id 
+
+#region Request Mesajını oluşturma ve gönderme
+
+IBasicProperties properties =  channel.CreateBasicProperties();
+properties.CorrelationId = correlationId;
+properties.ReplyTo = replyQueueName;
+
+for (int i = 0; i < 10; i++)
+{
+    await Task.Delay(200);
+
+    byte[] message = Encoding.UTF8.GetBytes($"Merhaba {i}");
+
+    channel.BasicPublish(
+        exchange: string.Empty,
+        routingKey: requestQueueuName,
+        body: message,
+        basicProperties: properties);
+}
+
+#endregion
+
+#region Response Kuyruğu Dinleme 
+
+EventingBasicConsumer consumer = new(channel);
+
+channel.BasicConsume(
+    queue: replyQueueName,
+    autoAck: true,  // Rabbit mq verinin otomatik bir şekilde silinmesi burada bu veri
+                    // bilerek açıldı çünkü work queue tarafında her veri tek bir consuma gitmesi istendiği için 
+    consumer: consumer);
+
+consumer.Received += (sender, e) =>
+{
+    if (e.BasicProperties.CorrelationId == correlationId)
+    {
+        string message = Encoding.UTF8.GetString(e.Body.Span);
+        Console.WriteLine($"Response  :  {message}");
+    }
+    
+};
+
+
+#endregion
 
 #endregion
 
