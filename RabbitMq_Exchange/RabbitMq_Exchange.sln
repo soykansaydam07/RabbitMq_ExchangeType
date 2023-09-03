@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mass_Transit_Consumer", "Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mass_Transit_Shared", "Mass_Transit_Shared\Mass_Transit_Shared.csproj", "{7089EA2C-5F4E-494C-9281-123E24357D41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mass_Transit_WorkService_Publisher", "Mass_Transit_WorkService_Publisher\Mass_Transit_WorkService_Publisher.csproj", "{1DC53D48-EF6E-4FD3-A8B0-E9FD23B01480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mass_Transit_WorkService_Consumer", "Mass_Transit_WorkService_Consumer\Mass_Transit_WorkService_Consumer.csproj", "{051C9F1A-B69F-4334-8A4E-0FA1797F3BC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{7089EA2C-5F4E-494C-9281-123E24357D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7089EA2C-5F4E-494C-9281-123E24357D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7089EA2C-5F4E-494C-9281-123E24357D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC53D48-EF6E-4FD3-A8B0-E9FD23B01480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC53D48-EF6E-4FD3-A8B0-E9FD23B01480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC53D48-EF6E-4FD3-A8B0-E9FD23B01480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC53D48-EF6E-4FD3-A8B0-E9FD23B01480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051C9F1A-B69F-4334-8A4E-0FA1797F3BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051C9F1A-B69F-4334-8A4E-0FA1797F3BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051C9F1A-B69F-4334-8A4E-0FA1797F3BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051C9F1A-B69F-4334-8A4E-0FA1797F3BC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
