@@ -14,6 +14,7 @@ namespace Mass_Transit_RequestResponsePattern_Consumer.Consumers
         public async Task Consume(ConsumeContext<RequestMessage> context)
         {
             //....process
+
             Console.WriteLine(context.Message.Text);
             await context.RespondAsync<ResponseMessage>(new() { Text = $"{context.Message.MessageNo}. response to request" });
         }
